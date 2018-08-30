@@ -1,0 +1,24 @@
+﻿<Window x:Name="frmPEE1" x:Class="CrudCSharp.Apresentacao.frmPEE"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrudCSharp.Apresentacao"
+        mc:Ignorable="d"
+        Title="Pesquisar / Editar / Excluir" Height="329" Width="613">
+    <Grid>
+        <Label x:Name="lblId" Content="ID" HorizontalAlignment="Left" Margin="42,33,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbId" HorizontalAlignment="Left" Height="24" Margin="102,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Button x:Name="btnPesquisarPorID" Content="Pesquisar ID" HorizontalAlignment="Left" Margin="469,36,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="lblNome" Content="Nome" HorizontalAlignment="Left" Margin="32,78,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbNome" HorizontalAlignment="Left" Height="22" Margin="102,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327"/>
+        <Button x:Name="btnPesquisarPorNome" Content="Pesquisar Nome" HorizontalAlignment="Left" Margin="469,81,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="lblRG" Content="RG" HorizontalAlignment="Left" Margin="41,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbRG" HorizontalAlignment="Left" Height="23" Margin="102,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Button x:Name="btnExcluir" Content="Excluir" HorizontalAlignment="Left" Margin="32,248,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="lblCpf" Content="CPF" HorizontalAlignment="Left" Margin="38,192,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbCpf" HorizontalAlignment="Left" Height="22" Margin="102,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Button x:Name="btnEditar" Content="Editar" HorizontalAlignment="Left" Margin="469,248,0,0" VerticalAlignment="Top" Width="103"/>
+
+    </Grid>
+</Window>

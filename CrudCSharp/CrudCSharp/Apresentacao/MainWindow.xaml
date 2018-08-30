@@ -1,0 +1,18 @@
+﻿<Window x:Name="frmPrincipal" x:Class="CrudCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrudCSharp"
+        mc:Ignorable="d"
+        Title="CRUD Pessoas" Height="450" Width="800" FontSize="16" FontWeight="Bold">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="49" VerticalAlignment="Top" Width="792">
+            <MenuItem x:Name="mniPessoas" Header="Pessoas" Height="49" Width="68" FontSize="14">
+                <MenuItem x:Name="mniCadastro" Header="Cadastro" RenderTransformOrigin="0.508,0.564" HorizontalAlignment="Left" FontSize="12" Width="244" Click="mniCadastro_Click"/>
+                <MenuItem x:Name="mniPEE" Header="Pesquisar / Editar / Excluir" HorizontalAlignment="Left" Click="mniPEE_Click" />
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
