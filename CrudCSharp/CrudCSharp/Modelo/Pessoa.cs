@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CrudCSharp.Modelo
 {
-	class Pessoa
+	public class Pessoa
 	{
+		public int id;
+		public string Nome;
+		public string rg;
+		public string cpf;
 	}
 }

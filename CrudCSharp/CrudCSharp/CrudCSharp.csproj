@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\Conexao.cs" />
+    <Compile Include="DAL\intPessoaDAO.cs" />
     <Compile Include="DAL\PessoaDAO.cs" />
     <Compile Include="Modelo\Controle.cs" />
     <Compile Include="Modelo\Pessoa.cs" />
